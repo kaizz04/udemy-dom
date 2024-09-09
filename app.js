@@ -17,4 +17,26 @@ for(let le of listItemElements){
 const ul = document.querySelector('ul');
 console.log("list content:  "+ul.children[2].textContent);
 
-console.log(ul.nextElementSibling);
+console.log(ul.nextElementSibling); //this is provide input element
+
+const section = document.querySelector('section');
+const btn = document.querySelector('button');
+//section.style.backgroundColor='orange';
+
+section.className='red-bg';
+
+btn.addEventListener('click', ()=>{
+    // if(section.className==='red-bg visible'){
+    //     section.className='red-bg invisible';
+
+    // }else{
+    //      section.className = 'red-bg visible';
+    // }
+    section.classList.toggle('visible');
+    section.classList.toggle('invisible');
+   
+});
+
+
+
+
