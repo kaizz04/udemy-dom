@@ -14,4 +14,7 @@ for(let le of listItemElements){
     console.log(le);
 
 }
+const ul = document.querySelector('ul');
+console.log("list content:  "+ul.children[2].textContent);
 
+console.log(ul.nextElementSibling);
