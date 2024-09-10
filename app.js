@@ -52,6 +52,9 @@ newLi.textContent = 'Item 4';
 const secLi = ul.children[1];
 secLi.insertAdjacentElement('afterend',newLi);
 
+const newLi2 = newLi.cloneNode(true);
+ul.append(newLi2);
+
 
 
 
