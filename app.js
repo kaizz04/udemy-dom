@@ -41,9 +41,16 @@ const p1 = document.querySelector('p');
 
 const newLi = document.createElement('li');
 newLi.textContent = 'Item 4';
-console.log(newLi);
 
-ul.appendChild(newLi);
+
+// ul.appendChild(newLi);
+// ul.append(newLi);
+// ul.prepend(newLi);
+// ul.lastElementChild.before(newLi);
+// ul.firstElementChild.replaceWith(newLi);
+
+const secLi = ul.children[1];
+secLi.insertAdjacentElement('afterend',newLi);
 
 
 
