@@ -55,6 +55,11 @@ secLi.insertAdjacentElement('afterend',newLi);
 const newLi2 = newLi.cloneNode(true);
 ul.append(newLi2);
 
+ul.removeChild(newLi2);
+// ul.remove();
+
+
+
 
 
 
