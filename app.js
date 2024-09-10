@@ -37,6 +37,19 @@ btn.addEventListener('click', ()=>{
    
 });
 
+const p1 = document.querySelector('p');
+
+const newLi = document.createElement('li');
+newLi.textContent = 'Item 4';
+console.log(newLi);
+
+ul.appendChild(newLi);
+
+
+
+
+
+
 
 
 
